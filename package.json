@@ -1,11 +1,11 @@
 {
-  "name": "kevinruscoe-tailwind-css-vars-exporter",
+  "name": "tailwind-css-vars-exporter",
   "version": "1.0.0",
   "description": "A tailwind plugin to export Tailwind variables as CSS variables.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevinruscoe/tailwind-css-vars-exporter"
+    "url": "git+https://github.com/kevinruscoe/tailwind-css-vars-exporter.git"
   },
   "author": {
     "name": "Kevin Ruscoe"
