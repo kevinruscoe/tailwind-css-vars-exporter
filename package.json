@@ -1,6 +1,6 @@
 {
   "name": "tailwind-css-vars-exporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tailwind plugin to export Tailwind variables as CSS variables.",
   "main": "index.js",
   "repository": {
