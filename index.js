@@ -1,7 +1,7 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = function (rules) {
-  return plugin(function ({ addComponents, theme }) {
+  return plugin(function ({ addBase, theme }) {
     let output = {};
 
     if (!rules) {
@@ -44,7 +44,7 @@ module.exports = function (rules) {
       }, {});
     }
 
-    addComponents({
+    addBase({
       ":root": output,
     });
   });
